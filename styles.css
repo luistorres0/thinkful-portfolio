@@ -1,5 +1,21 @@
-*{
-    box-sizing: border-box;
+/* ===================================================== Utility ==================================================== */
+
+.group-item-double-width {
+  flex: 2;
+}
+
+.bg-light-grey {
+  background: #808080;
+}
+
+.color-white {
+  color: #fff;
+}
+
+/* ===================================================== Global ===================================================== */
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -72,41 +88,39 @@ header nav ul li:last-child a {
 /* ====================================================== Main ====================================================== */
 
 .group {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.group-item{
+.group-item {
+  flex: 1;
+  padding: 10px;
+}
+
+main img {
+  width: 100%;
+}
+
+main p {
+  line-height: 1.2;
+}
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+    padding: 100px;
+  }
+
+  .group-item {
     flex: 1;
-    padding: 10px;
-}
+    padding: 20px;
+  }
 
-main img{
-    width: 100%;
-}
+  main .group-item h2 {
+    margin-top: 0;
+  }
 
-main p{
-    line-height: 1.2;
-}
-
-@media all and (min-width: 800px){
-    .group{
-        flex-direction: row;
-        padding: 100px;
-    }
-
-    .group-item{
-        flex: 1;
-        padding: 20px;
-    }
-
-    main .group-item h2{
-        margin-top: 0;
-    }
-
-    main p{
-        line-height: 1.5;
-    }
-    
-
+  main p {
+    line-height: 1.5;
+  }
 }

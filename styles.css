@@ -25,12 +25,41 @@ header nav ul {
   margin: 8px 0 14px 0;
 }
 
-header nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    margin-right: 20px;
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
 }
 
-header nav ul li:last-child a{
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+@media all and (min-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  header nav ul{
+      margin: 0;
+  }
+
+  header nav ul li a {
+    margin-right: 40px;
+  }
+  
+  header nav ul li:last-child a {
     margin-right: 0;
+  }
+  
 }

@@ -3,6 +3,8 @@ body {
   font-size: 18px;
 }
 
+/* ================================================== Header ================================================= */
+
 header {
   display: flex;
   flex-direction: column;
@@ -50,16 +52,18 @@ header nav ul li:last-child a {
     margin: 0;
   }
 
-  header nav ul{
-      margin: 0;
+  header nav ul {
+    margin: 0;
   }
 
   header nav ul li a {
     margin-right: 40px;
   }
-  
+
   header nav ul li:last-child a {
     margin-right: 0;
   }
-  
 }
+
+/* ====================================================== Main ====================================================== */
+

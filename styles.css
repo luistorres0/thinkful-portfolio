@@ -67,3 +67,16 @@ header nav ul li:last-child a {
 
 /* ====================================================== Main ====================================================== */
 
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-item{
+    flex: 1;
+    padding: 10px;
+}
+
+main img{
+    width: 100%;
+}

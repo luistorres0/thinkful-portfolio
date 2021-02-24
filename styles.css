@@ -122,6 +122,25 @@ section#Projects ul li a {
   color: rgb(46, 128, 128);
 }
 
+section#Contact form div {
+  margin-bottom: 20px;
+}
+
+section#Contact form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+section#Contact form input[type="text"],
+section#Contact form input[type="email"],
+section#Contact form textarea {
+  width: 100%;
+}
+
+section#Contact form textarea {
+  height: 100px;
+}
+
 @media all and (min-width: 800px) {
   main section {
     padding: 100px 200px;
@@ -134,6 +153,16 @@ section#Projects ul li a {
   .group-item {
     padding: 20px;
     margin: 0;
+  }
+
+  section#Projects div.group-item:first-child,
+  section#Contact div.group-item:first-child {
+    padding-left: 0;
+  }
+
+  section#Projects div.group-item:last-child,
+  section#Contact div.group-item:last-child {
+    padding-right: 0;
   }
 
   main p {

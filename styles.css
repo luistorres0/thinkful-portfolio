@@ -116,9 +116,13 @@ section#Projects ul {
   padding-left: 0;
 }
 
+section#Projects ul li {
+  margin-bottom: 10px;
+}
+
 section#Projects ul li a {
   text-decoration: none;
-  color: rgb(46, 128, 128);
+  color: #2e8080;
 }
 
 section#Contact form div {
@@ -148,6 +152,11 @@ section#Contact ul {
 
 section#Contact ul li {
   margin-bottom: 20px;
+}
+
+section#Contact ul li a {
+  text-decoration: none;
+  color: #c7e6e6;
 }
 
 @media all and (min-width: 800px) {

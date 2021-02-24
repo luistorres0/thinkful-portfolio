@@ -29,14 +29,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(78, 75, 75);
+  background: #4e4b4b;
   color: #fff;
 }
 
 header h1 {
   font-family: "Rubik", sans-serif;
   font-size: 40px;
-  letter-spacing: 5px;
   margin: 25px 0 0 0;
 }
 
@@ -141,13 +140,13 @@ section#Contact form textarea {
   height: 100px;
 }
 
-section#Contact ul{
+section#Contact ul {
   margin: 0;
   list-style: none;
   padding-left: 0;
 }
 
-section#Contact ul li{
+section#Contact ul li {
   margin-bottom: 20px;
 }
 
@@ -182,4 +181,17 @@ section#Contact ul li{
   .double-width {
     flex: 2;
   }
+}
+
+/* ===================================================== Footer ===================================================== */
+
+footer {
+  background: #4e4b4b;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
 }

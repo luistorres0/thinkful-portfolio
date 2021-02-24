@@ -90,6 +90,7 @@ header nav ul li:last-child a {
 .group {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .group-item {
@@ -108,7 +109,7 @@ main p {
 @media all and (min-width: 800px) {
   .group {
     flex-direction: row;
-    padding: 100px;
+    padding: 100px 200px;
   }
 
   .group-item {

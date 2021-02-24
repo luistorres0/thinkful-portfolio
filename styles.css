@@ -86,16 +86,22 @@ header nav ul li:last-child a {
 }
 
 /* ====================================================== Main ====================================================== */
+main section {
+  padding: 50px 15px 0 15px;
+}
 
 .group {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .group-item {
   flex: 1;
-  padding: 10px;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  margin-top: 0;
 }
 
 main img {
@@ -106,18 +112,28 @@ main p {
   line-height: 1.2;
 }
 
+section#Projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section#Projects ul li a {
+  text-decoration: none;
+  color: rgb(46, 128, 128);
+}
+
 @media all and (min-width: 800px) {
+  main section {
+    padding: 100px 200px;
+  }
+
   .group {
     flex-direction: row;
-    padding: 100px 200px;
   }
 
   .group-item {
     padding: 20px;
-  }
-
-  main .group-item h2 {
-    margin-top: 0;
+    margin: 0;
   }
 
   main p {

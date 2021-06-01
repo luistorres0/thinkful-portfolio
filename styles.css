@@ -20,7 +20,7 @@
 
 body {
   /* font-family: "Karla", sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 40px;
   margin: 25px 0 0 0;
 }
@@ -168,6 +168,19 @@ section#Contact ul li a {
   color: #c7e6e6;
 }
 
+section#Contact button {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: darkslategray;
+  border: none;
+}
+
+section#Contact button:hover {
+  background-color: #4e4b4b;
+  color: #fff;
+}
+
 @media all and (min-width: 800px) {
   main section {
     padding: 100px 200px;
@@ -213,19 +226,17 @@ section#Contact ul li a {
 }
 
 @media all and (min-width: 1600px) {
-  #About .group-item:nth-child(1){
+  #About .group-item:nth-child(1) {
     margin-right: 100px;
   }
 
-  #About .group-item:nth-child(1) h2{
+  #About .group-item:nth-child(1) h2 {
     margin-bottom: 60px;
   }
 
-  #About .group-item:nth-child(1) p{
+  #About .group-item:nth-child(1) p {
     margin-bottom: 50px;
   }
-
-
 }
 
 /* ===================================================== Footer ===================================================== */

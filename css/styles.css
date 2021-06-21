@@ -40,10 +40,9 @@ header h1 {
   margin: 25px 0 0 0;
 }
 
-header .brand{
+header .brand {
   text-decoration: none;
   color: #fff;
-  
 }
 
 header nav ul {
@@ -140,13 +139,21 @@ section#Projects ul li a {
   color: #2e8080;
 }
 
-section#Projects .project-card-link{
+section#Projects .project-card-link {
   text-decoration: none;
   color: inherit;
 }
 
-section#Projects .project-card-link:hover{
+section#Projects .project-card-link:hover {
   color: rgb(255, 81, 0) !important;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
 }
 
 section#Contact form div {

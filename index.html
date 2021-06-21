@@ -22,7 +22,7 @@
     <!--==================================================== Header =====================================================-->
 
     <header>
-      <h1>Luis Torres</h1>
+      <a class="brand" href="index.html"><h1>Luis Torres</h1></a>
 
       <nav>
         <ul>
@@ -82,8 +82,14 @@
         <h2>Projects</h2>
         <div class="group">
           <div class="group-item">
-            <img src="images/home/reservations_thumb.jpg" alt="placeholder" />
-            <a href="restaurant-reservations.html"><h3>Restaurant Reservations</h3></a>
+            <a href="restaurant-reservations.html"
+              ><img
+                src="images/home/reservations_thumb.jpg"
+                alt="restaurant reservations dashboard thumbnail"
+            /></a>
+            <a class="project-card-link" href="restaurant-reservations.html"
+              ><h3>Restaurant Reservations</h3></a
+            >
             <p>
               This app lets restaurant managers create reservations, edit them, assign them to
               tables, and look them up by phone number. It uses HTML, Bootstrap, React, NodeJs,
@@ -108,8 +114,10 @@
           </div>
 
           <div class="group-item">
-            <img src="images/home/movies_thumb.jpg" alt="placeholder" />
-            <h3>We Love Movies</h3>
+            <a href="we-love-movies.html"
+              ><img src="images/home/movies_thumb.jpg" alt="we love movies homepage thumbnail"
+            /></a>
+            <a class="project-card-link" href="we-love-movies.html"><h3>We Love Movies</h3></a>
             <p>
               Look up your favorite movie and see if they're playing in a theater near you. This app
               was made possible by React, NodeJs, Express, Knex, and PostgreSQL.
@@ -159,9 +167,7 @@
                 >
               </li>
               <li>
-                <a href="https://grubdash.herokuapp.com/" target="_blank"
-                  >Live site</a
-                >
+                <a href="https://grubdash.herokuapp.com/" target="_blank">Live site</a>
               </li>
             </ul>
           </div>

@@ -1,80 +1,52 @@
-figure {
-  margin: 0 0 50px 0;
-  width: 100%;
+@media all and (min-width: 800px) {
+  .project-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .project-header {
+    padding: 10px 200px 0 200px;
+  }
+
+  .project-header h2 {
+    text-align: center;
+  }
+
+  .project-screenshots {
+    padding: 10px 200px;
+  }
+
+  .project-screenshots .carousel {
+    max-width: 1400px;
+    margin: auto;
+    box-shadow: 0 1px 3.3px rgba(0, 0, 0, 0.036), 0 2.3px 7.2px rgba(0, 0, 0, 0.053),
+      0 3.9px 12.1px rgba(0, 0, 0, 0.065), 0 5.8px 18.2px rgba(0, 0, 0, 0.075),
+      0 8.4px 26.3px rgba(0, 0, 0, 0.085), 0 11.9px 37.2px rgba(0, 0, 0, 0.095),
+      0 16.8px 52.8px rgba(0, 0, 0, 0.105), 0 24.5px 76.7px rgba(0, 0, 0, 0.117),
+      0 37.7px 118.1px rgba(0, 0, 0, 0.134), 0 67px 210px rgba(0, 0, 0, 0.17);
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5100' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5100' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+
+  .carousel-indicators li {
+    background-color: #ff5100;
+    background-color: rgba(70, 70, 70, 0.75);
+  }
+
+  .carousel-indicators .active {
+    background-color: #ff5100;
+  }
+
+  .carousel-caption p {
+    color: #ff5100 !important;
+    font-size: 30px !important;
+  }
 }
-
-figcaption {
-  margin-top: 10px;
-}
-
-.project-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.project-header {
-  padding: 10px 200px 0 200px;
-}
-
-.project-header h2 {
-  text-align: center;
-}
-
-.project-screenshots {
-  padding: 10px 200px;
-  
-}
-
-.project-screenshots .carousel {
-  max-width: 1400px;
-  margin: auto;
-  box-shadow:
-  0 1px 3.3px rgba(0, 0, 0, 0.036),
-  0 2.3px 7.2px rgba(0, 0, 0, 0.053),
-  0 3.9px 12.1px rgba(0, 0, 0, 0.065),
-  0 5.8px 18.2px rgba(0, 0, 0, 0.075),
-  0 8.4px 26.3px rgba(0, 0, 0, 0.085),
-  0 11.9px 37.2px rgba(0, 0, 0, 0.095),
-  0 16.8px 52.8px rgba(0, 0, 0, 0.105),
-  0 24.5px 76.7px rgba(0, 0, 0, 0.117),
-  0 37.7px 118.1px rgba(0, 0, 0, 0.134),
-  0 67px 210px rgba(0, 0, 0, 0.17)
-;
-
-
-
-
-
-
-
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5100' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5100' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-indicators li {
-  background-color: #ff5100;
-  background-color: rgba(70, 70, 70, 0.75);
-}
-
-.carousel-indicators .active {
-  background-color: #ff5100;
-}
-
-.carousel-caption h4 {
-  color: #ff5100 !important;
-}
-
-.carousel-caption p {
-  color: #ff5100 !important;
-}
-
-
-

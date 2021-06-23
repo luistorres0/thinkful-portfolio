@@ -31,13 +31,22 @@ figcaption {
   max-width: 1400px;
   margin: auto;
   box-shadow:
-  0 0.9px 2.2px -2px rgba(0, 0, 0, 0.053),
-  0 2.1px 5.3px -2px rgba(0, 0, 0, 0.077),
-  0 3.9px 10px -2px rgba(0, 0, 0, 0.095),
-  0 6.9px 17.9px -2px rgba(0, 0, 0, 0.113),
-  0 13px 33.4px -2px rgba(0, 0, 0, 0.137),
-  0 31px 80px -2px rgba(0, 0, 0, 0.19)
+  0 1px 3.3px rgba(0, 0, 0, 0.036),
+  0 2.3px 7.2px rgba(0, 0, 0, 0.053),
+  0 3.9px 12.1px rgba(0, 0, 0, 0.065),
+  0 5.8px 18.2px rgba(0, 0, 0, 0.075),
+  0 8.4px 26.3px rgba(0, 0, 0, 0.085),
+  0 11.9px 37.2px rgba(0, 0, 0, 0.095),
+  0 16.8px 52.8px rgba(0, 0, 0, 0.105),
+  0 24.5px 76.7px rgba(0, 0, 0, 0.117),
+  0 37.7px 118.1px rgba(0, 0, 0, 0.134),
+  0 67px 210px rgba(0, 0, 0, 0.17)
 ;
+
+
+
+
+
 
 
 }

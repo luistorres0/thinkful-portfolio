@@ -1,4 +1,12 @@
 @media all and (min-width: 800px) {
+  .carousel{
+    display: block;
+  }
+
+  .screenshots-mobile{
+    display: none;
+  }
+
   .project-page {
     height: 100vh;
     display: flex;

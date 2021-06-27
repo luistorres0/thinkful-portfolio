@@ -168,14 +168,6 @@ section#Projects .project-card-link:hover {
   color: #ff5100 !important;
 }
 
-.zoom {
-  transition: transform 0.2s;
-}
-
-.zoom:hover {
-  transform: scale(1.2);
-}
-
 section#Contact form div {
   margin-bottom: 20px;
 }

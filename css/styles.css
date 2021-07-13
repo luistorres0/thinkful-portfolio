@@ -1,8 +1,8 @@
 /* ===================================================== Utility ==================================================== */
 
 .bg-light-grey {
-  background: rgb(129,126,126);
-  background: radial-gradient(circle, rgba(129,126,126,1) 0%, rgba(170,167,167,1) 100%);
+  background: rgb(9, 9, 9);
+  background: linear-gradient(90deg, rgb(41, 40, 40) 0%, rgb(82, 79, 77) 100%);
 }
 
 .color-white {
@@ -121,13 +121,10 @@ main img {
 }
 
 main section#Home {
-  background: rgb(246, 240, 240);
-  background: radial-gradient(
-    circle,
-    rgba(246, 240, 240, 1) 0%,
-    rgba(224, 222, 222, 0.9360119047619048) 100%
-  );
+  background: rgb(240, 240, 240);
+  font-weight: bold;
 }
+  
 
 main section#Home img {
   display: block;
